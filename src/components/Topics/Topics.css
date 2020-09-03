@@ -1,0 +1,7 @@
+.TopicList .Topic{
+    display:flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    margin: 10px 20%;
+}

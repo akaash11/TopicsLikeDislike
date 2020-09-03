@@ -1,0 +1,20 @@
+.buttons {
+    margin-right: 10px;
+}
+  
+.Topic .title {
+    font-weight: bold;
+    font-size: 1.3em;
+    word-wrap: break-word;
+}
+  
+.likeCount {
+    color: green;
+    margin: 6px;
+}
+  
+.dislikeCount {
+    color: red;
+    margin: 6px;
+}
+  
