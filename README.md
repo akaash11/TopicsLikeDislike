@@ -2,6 +2,8 @@
 
 Search any topic, you want. You can like it or dislike it.
 
+You need to `npm install` once you download.
+
 ## External libraries used:
 * React-redux
 * Font awesome
