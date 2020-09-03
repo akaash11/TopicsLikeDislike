@@ -1,6 +1,6 @@
 # Search, Like, Dislike 
 
-Search any topic, you can like it or dislike it.
+Search any topic, you want. You can like it or dislike it.
 
 ## External libraries used:
 * React-redux
