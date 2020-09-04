@@ -25,3 +25,11 @@
     padding:6px 12px;
     margin-top: 12px;
 }
+.searchbox{
+    display: flex;
+    flex-direction: column;
+}
+.error{
+    color:red;
+    margin-left: 10px;
+}

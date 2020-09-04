@@ -3,7 +3,6 @@ import { CREATE_NEW_TOPIC, LIKE_TOPIC, DISLIKE_TOPIC } from "../Action/Action";
 const topics = (state = [], action) => {
   switch (action.type) {
     case CREATE_NEW_TOPIC:
-      console.log("Create new topic")
       return {
         ...state,
         [Object.keys(state).length]: {
@@ -14,7 +13,6 @@ const topics = (state = [], action) => {
       };
     case LIKE_TOPIC: {
       const topic = state[action.topicId];
-      console.log("LIKE_TOPIC",topic)
       return {
         ...state,
         [action.topicId]: {
@@ -25,7 +23,6 @@ const topics = (state = [], action) => {
     }
     case DISLIKE_TOPIC: {
       const topic = state[action.topicId];
-      console.log("DISLIKE_TOPIC",topic)
       return {
         ...state,
         [action.topicId]: {

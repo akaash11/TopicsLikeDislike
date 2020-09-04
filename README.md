@@ -7,6 +7,7 @@ You need to `npm install` once you download.
 ## External libraries used:
 * React-redux
 * Font awesome
+* react-hook-form
 
 ## Available Scripts
 In the project directory, you can run:

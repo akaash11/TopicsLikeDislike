@@ -17,7 +17,6 @@ class Topics extends Component {
 
   render() {
     const { topicsArr } = this.getTopics();
-    console.log("Hello",topicsArr)
     return (
       <div className="TopicList">
         {topicsArr
